@@ -19,7 +19,7 @@ span{
 button{
     height: 40px;
     width: 110px;
-    background-color: lightgray;
+    background-color: #E9E9E9;
     color: white;
     border: 1px solid transparent;
     border-radius: 25px 25px;
@@ -426,7 +426,7 @@ nav input[type=text]{
 }
 .cardslot{
     width: 1658px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
     margin:auto;
     display: flex;
     justify-content: center;
@@ -605,6 +605,7 @@ nav input[type=text]{
     margin: auto;
     /* padding-top: 400px; */
     display: flex;
+    
 }
 .gray{
     width: 1658px;
@@ -615,6 +616,7 @@ nav input[type=text]{
     /* justify-items: center; */
     text-align: left;  
     color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .gray .hm1{
     height: 40px;
@@ -652,26 +654,90 @@ font-weight: 0;
 }
 .cal-container{
     width: 1658px;
-    height: 700px;
-    background-color: #DEDFE1;
+    height: 500px;
+    background-color:#F5F5F5;
     margin: auto;
+    padding: auto;
     justify-content: center;
     justify-items: center;
     text-align: center;  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
     margin-bottom: 100px;
+    box-sizing: border-box;
 }
 .cal{
+    height: 500px;
+    width: 1658px;
     display: flex;
-    justify-content: space-between;
+    
+    background-color:#F5F5F5;
+    
+}
+.cal i{
+    width: 5px;
+    
 }
 .cal button{
-    margin-top: 350px;
+    /* margin-top: 50px; */
     width: auto;
     height: auto;
     font-size: xx-large;
+    background-color: whitesmoke;
+    color: white;
+}
+.cal .read{
+    background-color: white;
+    width: 160px;
+    height: 40px;
+    border: 2px solid lightgray;
+    
+    justify-content: center;
+}
+.cal a{
+    text-decoration: none;
+}
+.cr{
+    display: block;
+    height: 500px;
+    width: 500px;
+    margin-left: 32px;
+    margin-right: 5px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.gr{
+    width: 500px;
+    height: 280px;
+    background-color: #E9E9E9;
+    text-align: left;
+    
 }
 
+.wh{
+    width: 480px;
+    height: 180px;
+    background-color: white;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+.r{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px 5px;
+    color: white;
+   
+}
+.r h1{
+    color: white;
+    
+}
 .footer{
     
     justify-content: center; 
@@ -687,11 +753,12 @@ font-weight: 0;
     justify-content: space-between;
     margin: auto;
     
+    
 }
 .news{
     margin-right: 10px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 .email{
     margin-top: 15px;
@@ -706,7 +773,7 @@ input{
     background-color: #222222;
     color: white;
     border: 1px solid transparent;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
 }
 .email button{
     height: 32px;
@@ -724,6 +791,9 @@ input{
 .part2{
     display: flex;
     padding: 10px; 
+    
+    margin-right: 90px;
+    box-sizing: border-box;
 }
 .offer{
     font-size: 30px;
@@ -747,35 +817,84 @@ input{
     color: white;
     margin:auto;
 }
-.footertail{
+.footcontainer{
     display: flex;
+    margin: auto;
     justify-content: center;
 }
-.footertail .a{
-    width: 1920px;
+
+.footertail .x1{
+    width: 1903px;
     background-color: #222222;
-    height: 500px;
+    height: 550px;
     display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.footertail .x3{
+    width: 1903px;
+    background-color: #222222;
+    height: 100px;
+    margin: auto;
+    
+    /* box-sizing: border-box; */
+    
+}
+.footertail .x2{
+    margin: auto;
+    width: 1658px;
+    background-color: #222222;
+    height: 58px;
+    border-top: 2px solid grey;
+    /* box-sizing: border-box; */
+ 
+    
+}
+.x2conr{
+    width: 1658px;
+    background-color: #222222;
+    height: 58px;
+   
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+
+.x3 a{
+    color: white;
+    text-decoration: none;
 }
 .section1{
-    margin-top: 50px;
+    justify-content: center;
+    width: 600px;
     margin-left: 50px;
-    width: 650px;
+}
+.section2{
+   
+    width: 150px;
     justify-content: center;
 }
+
 .we{
-    width: 500px;
+    /* width: 500px; */
     background-color: #222222;
     color: white;
-    margin-left: 50px;
+    
     margin-top: 10px;
     font-size: small;
 }
 .follow{
     background-color: #222222;
-    margin-left: 50px;
+   
     margin-top: 10px;
     color: #767779;
+}
+.follow a{
+    color: #767779;
+    text-decoration: none;
 }
 .social{
     display: flex;  
