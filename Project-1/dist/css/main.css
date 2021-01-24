@@ -865,6 +865,10 @@ input{
 .x4{
     margin-top: 20px;
 }
+.x4 img{
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
 .x3 a{
     color: white;
     text-decoration: none;
