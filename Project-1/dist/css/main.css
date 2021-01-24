@@ -13,6 +13,24 @@ body{
     margin: 0;
     padding: 0;   
 }
+span{
+    color: orangered;
+}
+button{
+    height: 40px;
+    width: 110px;
+    background-color: lightgray;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 25px 25px;
+}
+a{
+    
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    margin:auto;
+}
 .header{
     position: -webkit-sticky;
     position: sticky;
@@ -57,7 +75,7 @@ nav{
     margin: auto;
 }
 
-ul{
+nav ul{
     display: flex;
     
 }
@@ -85,7 +103,7 @@ ul{
     margin-top: 15px;
     margin-right: 5px;
 }
-li{
+nav li{
     list-style-type: none;
     background-color: black;
     color: white; 
@@ -144,8 +162,7 @@ nav input[type=text]{
 .trancontainer{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    
+    /* margin-bottom: 90px; */  
 }
 .tran{
     background-color: red;
@@ -165,7 +182,7 @@ nav input[type=text]{
     justify-items: center;
     text-align: center;
     padding-top: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
    
 }
 .show{
@@ -292,17 +309,117 @@ nav input[type=text]{
 .item1{
     grid-row-end: span 2;
     background-color: #E5E5E5;  
+    
+}
+.item1-div{
+    margin-top:250px ;
+}
+.item1 button{
+    width: 200px;
+    height: 35px;
+    background-color: red;
+}
+.item1 button a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
 }
 .item2{
     grid-column-end: span 2;
     background-color: white; 
 }
+.item2-div{
+    margin-top: 50px;
+}
+.item2 button{
+    background-color: yellow;
+    width: 150px;
+}
+.item2 button a{
+    font-weight: 900;
+    font-size: small;
+}
+
 .item5{
     grid-column-end: span 2;
-    background-color: #E5E5E5;
+    background-color: #E5E5E5; 
 }
+.item5 .aa{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.item5 button{
+    background-color: black;
+    color: white;
+}
+.item5 button a{
+    text-decoration: none;
+}
+.rectangle{
+    background-color: white;
+    
+    justify-content: center;
+}
+.rectangle h3{
+    
+    text-align: center;
+}
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 30px solid white;
+    /* box-shadow: 0 4px 8px 0 rgba(256, 256, 256, 0.1); */
+}
+.a1{
+    justify-content: center;
+    
+    margin-left: 80px;
+    height: 150px;
+    width: 100px;
+    
+}
+.a2{
+    margin-left: 80px;
+}
+.a2 button{
+    height: 40px;
+    width: 110px;
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 25px 25px;
+}
+.a2 button a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    margin:auto;
+}
+.a3{
+    margin: auto;
+}
+.a3 button{
+    background-color: black;
+}
+.a3 button a{
+    color: white;
+}
+
 .item3{
     background-color: #E5E5E5;
+
+}
+.item3 p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.item3-div{
+    margin: auto;
+    margin-top: 280px;
 }
 .item4{
     background-color:#E5E5E5;
@@ -315,56 +432,260 @@ nav input[type=text]{
     justify-content: center;
     justify-items: center;
     text-align: center;
-    height: 450px;
+    height: 445px;
     margin-bottom: 30px;
     background-color: #F5F5F5;
 }
 .cardcontainer{
-    width: 1700px;
-    height: 300px;
+    /* width: 2000px; */
+    height: 200px;
     display: flex;
     justify-content: space-between;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    width: 230px;
     margin: auto;
+    margin-left: 25px;
     text-align: center;
     font-family: arial;
+    height: 445px;
+}
+.card .p8{
+    margin-top: 250px;
 }
 .price {
-    color: grey;
-    font-size: 22px;
+    color: rgb(187, 31, 31);
 }
 .card button {
     border: none;
     outline: 0;
-    padding: 12px;
     color: white;
-    background-color: black;
+    background-color: red;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 150px;
+    font-size: 18px;
+}
+.card .wb{
+    border: 2px solid black;
+    outline: 0;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
     font-size: 18px;
 }
 .card button:hover {
     opacity: 0.7;
 }
-.footer{
+.grey{
+    color: grey;
+    font-size: medium;
+}
+.scontainer{
+    padding-left: 250px;
+}
+.outline{
+    width: 400px;
+    height: 600px;
+    padding-top: 70px;
+    
+    border: 5px solid transparent;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: left;
+    font-size: larger;
+    padding-left: 50px;
+    
+}
+.outline button{
+    height: 40px;
+    width: 110px;
+    background-color: rgb(248, 220, 4);
+    /* color: white; */
+    border: 1px solid transparent;
+    border-radius: 25px 25px;
+}
+.outline button a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    margin:auto;
+}
+.outline span{
+    color: rgb(182, 21, 21);
+}
+.outline h1{
+    font-weight: 700;
+}
+
+.bl{
     display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 1658px;
+    margin-bottom: 15px;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.black{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+    font-size: small;
+    text-align: left;
+}
+.coffee{
+    /* margin-left: 700px; */
+    display: flex;
+    justify-content: space-between;
+    /* background-attachment: fixed; */
+  /* background-size: cover; */
+     /* z-index: 0; */
+     /* margin: 20px; */
+}
+.c{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    height: 400px;
+    /* position: relative; */
+    /* width: 1958px; */
+    background-image: url('/dist/img/x.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    opacity: 1.0;
+}
+
+.whitebox{
+    height: 200px;
+    width: 450px;
+    background-color: rgb(248, 248, 248);
+    margin: auto;
+    display: flex;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* justify-content: space-between; */
+}
+.wc{
+    height: 100px;
+    width: 100px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    background-color: lightgray;
+    margin-right: 50px;
+    margin: auto;
+    margin-left: 20px;
+}
+.al{
+    margin: 10px;
+    width: 340px;
+    font-size: small; 
+    font-weight: 500;
+}
+.al button{
+    background-color: white;
+}
+.al button a{
+    text-decoration: none;
+    color: black;
+    margin:auto;
+}
+.graycontainer{
+    justify-content: center;
+    margin: auto;
+    /* padding-top: 400px; */
+    display: flex;
+}
+.gray{
+    width: 1658px;
+    height: 500px;
+    background-color: #CCCCCC;
+    /* display: flex; */
+    justify-content: left;
+    /* justify-items: center; */
+    text-align: left;  
+    color: white;
+}
+.gray .hm1{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(252, 251, 246);
+    /* color: white; */
+    border: 1px solid transparent;
+    border-radius: 25px 25px;
+}
+.gray button a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    margin:auto;
+}
+.gray .hm2{
+    height: 40px;
+    width: 150px;
+    background-color: #FED638;
+    /* color: white; */
+    border: 1px solid transparent;
+    border-radius: 25px 25px;
+}
+.gray >div{
+    padding-top: 250px;
+    padding-left: 110px;
+}
+.gray p{
+font-size: 25px;
+font-weight: 0;
+}
+.gray h1{
+    font-size: 40px;
+}
+.cal-container{
+    width: 1658px;
+    height: 700px;
+    background-color: #DEDFE1;
+    margin: auto;
     justify-content: center;
     justify-items: center;
-    text-align: center;
-    padding: auto; 
+    text-align: center;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+}
+.cal{
+    display: flex;
+    justify-content: space-between;
+}
+.cal button{
+    margin-top: 350px;
+    width: auto;
+    height: auto;
+    font-size: xx-large;
+}
+
+.footer{
+    
+    justify-content: center; 
+    margin: auto;
     
 }
 .foothead{
-    width: 1920px;
+    width: 1903px;
     height: 70px;
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
+    margin: auto;
     
 }
 .news{
@@ -393,6 +714,7 @@ input{
     font-size:20px;
     color: white;
     background-color: red;
+    border-radius: 0%;
     border: 1px solid transparent;
 }
 .part1{
